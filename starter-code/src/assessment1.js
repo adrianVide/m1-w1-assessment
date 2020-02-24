@@ -59,7 +59,7 @@ function doesWordExist(wordsArr, word) {
 // Finding the first non-duplicate (non-repeating) word in an array
 
 function findUnique(wordsArr) {
-  if (wordsArr == []) {
+  if (wordsArr.length == []) {
     return false;
   } else {
     let uniques = wordsArr.filter(function(a) {
